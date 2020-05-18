@@ -4,5 +4,6 @@ describe '#get_middle' do
   it 'returns a middle character of the string' do
     expect(get_middle('a')).to eq('a')
     expect(get_middle('ab')).to eq('ab')
+    expect(get_middle('abc')).to eq('b')
   end
 end
