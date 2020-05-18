@@ -1,3 +1,3 @@
 def get_middle(string)
-  'a'
+  string
 end
